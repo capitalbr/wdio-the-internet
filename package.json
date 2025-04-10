@@ -1,0 +1,17 @@
+{
+  "name": "wdio_spot",
+  "type": "module",
+  "devDependencies": {
+    "@testing-library/webdriverio": "^3.2.1",
+    "@wdio/cli": "^9.12.4",
+    "@wdio/local-runner": "^9.12.4",
+    "@wdio/mocha-framework": "^9.12.3",
+    "@wdio/spec-reporter": "^9.12.3",
+    "@wdio/visual-service": "^6.4.0",
+    "wdio-vscode-service": "^6.1.3",
+    "wdio-wait-for": "^3.1.0"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  }
+}
